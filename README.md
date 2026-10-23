@@ -68,6 +68,15 @@ under Steam Proton. Development and testing so far have been on Windows.
 - An end-to-end latency meter
 - Linux testing and packaging
 
+## For hardware developers
+
+Make motion platforms, haptics, wind simulators, dash panels or other
+hardware that responds to games? If you'd like GameConn to support it,
+get in touch on [Discord](https://discord.gg/yyCp5D2Ccp). Protocol
+documentation or access to a device makes support possible sooner, and
+until the device plugin specification is published, this is the way to
+get new hardware added.
+
 ## Follow along
 
 - **Discord:** [support and discussion](https://discord.gg/yyCp5D2Ccp)
