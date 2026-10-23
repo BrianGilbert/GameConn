@@ -44,7 +44,9 @@ and games whose own telemetry output is translated by
 - **Motion cueing.** Washout and tilt coordination, the techniques motion
   simulators use to make sustained acceleration feel right.
 - **Safety first.** Devices only move once they're armed, and can be
-  paused at any time.
+  paused at any time. When a game reports that it's paused, motion rigs
+  ease gently to their neutral position and haptics go quiet, then ease
+  back when the game resumes.
 - **Desktop app and headless daemon.** A GUI for setup and live
   monitoring, and a command-line daemon for running unattended.
 - **Built for low latency.** Telemetry reaches each device's output loop
