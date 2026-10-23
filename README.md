@@ -66,7 +66,7 @@ under Steam Proton. Development and testing so far have been on Windows.
 
 ## Follow along
 
-- **Discord:** [support and discussion](https://discord.gg/yyCp5D2Ccp)
+- **Discord:** [Konstruukt Labs](https://discord.gg/yyCp5D2Ccp)
 - **Sponsor:** [GitHub Sponsors](https://github.com/sponsors/BrianGilbert).
   Sponsorship decides how quickly GameConn reaches a public release, and
   whether it can be released for free. It also moves the rest of the work
