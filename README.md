@@ -29,7 +29,7 @@ and games whose own telemetry output is translated by
 | Device | What GameConn does with it | State |
 | --- | --- | --- |
 | **Yaw motion simulators** | Finds rigs on the network, drives yaw, pitch and roll at the rig's native 100 Hz, plus vibration, with the rig's own settings (power, tilt and yaw limits) available in the app. Reads the rig's actual position back, ready for VR motion compensation. | Validated end to end with the Yaw Emulator, playing Hot Wheels Unleashed through the [BepInEx loader mod](https://github.com/BrianGilbert/bepinex-ogsa-ts) |
-| **DOF Reality platforms** | Drives SMC3 motor controllers for 3, 4 and 6 degree-of-freedom platforms, including platforms that span several boards. | Implemented |
+| **DOF Reality platforms** | Drives SMC3 motor controllers for 3, 4 and 6 degree-of-freedom platforms, including platforms that span several boards. | **Untested.** Written against the SMC3 protocol but not yet run on a real platform, so don't rely on it |
 | **Audio exciters** | Turns telemetry into engine rumble, road texture and wind for bass shakers and other tactile transducers, on any audio output. | Implemented |
 
 ### The app
@@ -66,7 +66,7 @@ under Steam Proton. Development and testing so far have been on Windows.
 
 ## Follow along
 
-- **Discord:** [Konstruukt Labs](https://discord.gg/yyCp5D2Ccp)
+- **Discord:** [support and discussion](https://discord.gg/yyCp5D2Ccp)
 - **Sponsor:** [GitHub Sponsors](https://github.com/sponsors/BrianGilbert).
   Sponsorship decides how quickly GameConn reaches a public release, and
   whether it can be released for free. It also moves the rest of the work
