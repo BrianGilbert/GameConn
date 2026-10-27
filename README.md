@@ -11,16 +11,16 @@
 
 GameConn connects games to the hardware around you. It receives live
 telemetry from any game speaking the
-[OGSA Telemetry Standard (OGSA-TS)](https://github.com/Open-Game-Standards-Alliance/OGSA-Telemetry-Standard)
+[OGS Telemetry Standard (OGS-TS)](https://github.com/Open-Game-Standards/OGS-Telemetry-Standard)
 on your local network and drives your devices with it: motion rigs,
 haptics and more, each through its own plugin, all from one app.
 
-Any OGSA-TS source works: games with a native
-[engine plugin](https://github.com/Open-Game-Standards-Alliance), games
+Any OGS-TS source works: games with a native
+[engine plugin](https://github.com/Open-Game-Standards), games
 running one of the
-[loader mods](https://github.com/Open-Game-Standards-Alliance#loader-mods),
+[loader mods](https://github.com/Open-Game-Standards#loader-mods),
 and games whose own telemetry output is translated by
-[OGSA-TS Bridge](https://github.com/BrianGilbert/ogsa-ts-bridge).
+[OGS-TS Bridge](https://github.com/BrianGilbert/ogs-ts-bridge).
 
 ## Where it is today
 
@@ -28,7 +28,7 @@ and games whose own telemetry output is translated by
 
 | Device | What GameConn does with it | State |
 | --- | --- | --- |
-| **Yaw motion simulators** | Finds rigs on the network, drives yaw, pitch and roll at the rig's native 100 Hz, plus vibration, with the rig's own settings (power, tilt and yaw limits) available in the app. Reads the rig's actual position back, ready for VR motion compensation. | Validated end to end with the Yaw Emulator, playing Hot Wheels Unleashed through the [UE4SS loader mod](https://github.com/BrianGilbert/ue4ss-ogsa-ts) |
+| **Yaw motion simulators** | Finds rigs on the network, drives yaw, pitch and roll at the rig's native 100 Hz, plus vibration, with the rig's own settings (power, tilt and yaw limits) available in the app. Reads the rig's actual position back, ready for VR motion compensation. | Validated end to end with the Yaw Emulator, playing Hot Wheels Unleashed through the [UE4SS loader mod](https://github.com/BrianGilbert/ue4ss-ogs-ts) |
 | **DOF Reality platforms** | Drives SMC3 motor controllers for 3, 4 and 6 degree-of-freedom platforms, including platforms that span several boards. | **Untested.** Written against the SMC3 protocol but not yet run on a real platform |
 | **Audio exciters** | Turns telemetry into engine rumble, road texture and wind for bass shakers and other tactile transducers, on any audio output. | Implemented |
 
@@ -83,6 +83,6 @@ get new hardware added.
 - **Sponsor:** [GitHub Sponsors](https://github.com/sponsors/BrianGilbert).
   Sponsorship decides how quickly GameConn reaches a public release, and
   whether it can be released for free. It also moves the rest of the work
-  forward: the OGSA standards and their SDKs, the loader mods and
-  OGSA-TS Bridge.
-- **The standard:** [Open Game Standards Alliance](https://github.com/Open-Game-Standards-Alliance)
+  forward: the OGS standards and their SDKs, the loader mods and
+  OGS-TS Bridge.
+- **The standard:** [Open Game Standards](https://github.com/Open-Game-Standards)
