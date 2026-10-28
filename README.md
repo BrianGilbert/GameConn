@@ -32,7 +32,14 @@ and games whose own telemetry output is translated by
 | **DOF Reality platforms** | Drives SMC3 motor controllers for 3, 4 and 6 degree-of-freedom platforms, including platforms that span several boards. | **Untested.** Written against the SMC3 protocol but not yet run on a real platform |
 | **Audio exciters** | Turns telemetry into engine rumble, road texture and wind for bass shakers and other tactile transducers, on any audio output. | Implemented |
 
-### The app
+### The app (still in early development)
+
+![GameConn flying Microsoft Flight Simulator 2024 through OGS-TS Bridge: live telemetry and the attitude indicator on the left, the game's profile in the middle with one mapping open to show each step live, and a connected Yaw Simulator on the right](docs/gameconn-msfs.png)
+
+*Microsoft Flight Simulator 2024 through [OGS-TS Bridge](https://github.com/BrianGilbert/ogs-ts-bridge),
+driving a Yaw Simulator: incoming telemetry on the left, the game's
+profile in the middle (one mapping open, showing each step's live value),
+receivers on the right.*
 
 - **Per-game profiles.** Each game gets a profile that maps its telemetry
   onto any number of devices, with ranges, transforms and conditions, and
